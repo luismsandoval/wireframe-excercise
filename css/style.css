@@ -3,8 +3,8 @@
 }
 
 header {
-  height: 70px;
-  margin-top: 30px;
+  height: 100px;
+  /* margin-top: 30px; */
 }
 
 header nav {
@@ -14,7 +14,7 @@ header nav {
 
 header img {
   float: left;
-  margin: 0;
+  margin-top: 30px;
 }
 
 .clearfix::after {
@@ -32,7 +32,7 @@ ul {
 
 li {
   display: inline-block;
-  margin-top: 5%;
+  margin-top: 60px;
 }
 
 a {
@@ -57,20 +57,45 @@ article {
   width: 450px;
   height: 400px;
 }
+
+h3 {
+  font-size: x-large;
+}
+
 article section p {
   overflow: scroll;
-  height: 370px;
+  height: 295px;
 }
 
 img {
   margin-top: 15px;
   margin-bottom: 15px;
+  border: 1px solid darkgray;
 }
 
 main img:last-of-type {
   width: 50%;
 }
 
-span {
-  background-color: grey;
+section {
+  margin: 15px 0 15px 0;
+}
+
+button {
+  width: 250px;
+  height: 50px;
+  border: 1px solid darkgray;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: salmon;
+  font-size: 150%;
+  transition: 350ms;
+  cursor: pointer;
+}
+
+footer {
+  height: 100px;
 }
